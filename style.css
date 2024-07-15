@@ -6,3 +6,30 @@ body{
     background-color: antiquewhite;
 }
 
+.box {
+    background-color: antiquewhite;
+    height: 300px; 
+    width: 300px; 
+    margin: 0 auto; 
+
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center elements horizontally */
+    justify-content: center; /* Center elements vertically (if needed) */
+    text-align: center;
+}
+
+.container{
+    background-color: antiquewhite;
+    display: flex;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+
